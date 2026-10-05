@@ -1,0 +1,169 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+
+.banner-container {
+    position: relative;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.banner-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+
+.banner-text h2 {
+    font-size: 3.5rem;
+    font-weight: 900;
+    color: #ff5500;
+    line-height: 1.1; 
+    
+    -webkit-text-stroke: 1px white;
+}
+
+
+
+/* header */
+header {
+    background-color: #ff5500;
+    width: 100%;
+    height: 125px;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 20px 15px;
+}
+
+.header-logo {
+    height: 80px;
+    width: auto;
+}
+
+.header-text {
+    margin: 0;
+    color: white;
+    font-size: large;
+    font-family: sans-serif;
+}
+
+
+
+/* nav */
+nav.container {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.navbar {
+    display: flex;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    background-color: white; 
+}
+
+.nav-item {
+    flex: 1;
+    text-align: center;
+    padding: 12px 8px;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    border-right: 2px solid black;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.2;
+}
+
+.nav-item:hover {
+    background-color: #f0f0f0;
+}
+
+
+
+/* aside */
+aside.container {
+    margin-top: 15px;
+    margin-bottom: 14px;
+}
+
+aside img {
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+    object-fit: cover;
+    display: block;
+}
+
+
+
+/* article */
+article.container {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.article {
+    display: flex;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    background-color: #ff5500;
+    margin-bottom: 15px;
+    height: 150px;
+}
+
+.article-item {
+    flex: 1;
+    text-align: center;
+    padding: 12px 8px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border-right: 2px solid black;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.article-item:hover {
+    background-color: orange;
+}
+
+
+
+/* footer */
+footer {
+    height: 125px;
+    background-color: #FF551D;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
